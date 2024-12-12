@@ -5,6 +5,7 @@ body{
 
     transform: translate(-50%,-50%);
     text-align: center;
+    display: flex;
     -webkit-touch-callout: none;
      user-select: none;
      -moz-user-select: none;
@@ -45,6 +46,20 @@ button{
     cursor: pointer;
     
 }
+
+span {
+    position: absolute;
+    top: 100%; /* 타겟 바로 아래 위치 */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 3vw; /* 반응형 폰트 크기 */
+    color: #333;
+    text-align: center;
+    white-space: nowrap; /* 텍스트가 한 줄로 표시되도록 설정 */
+}
+
+
 
 button:hover{
     color :rgb(255, 166, 0);
