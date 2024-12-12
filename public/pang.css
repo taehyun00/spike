@@ -1,0 +1,61 @@
+
+input {
+    text-align: center;
+    border: none;
+    width: 250px;
+    height: auto;
+    font-weight: bold;
+    font-size: 10vw; /* 반응형 폰트 크기 */
+    color: #333;
+    background: none;
+}
+
+input:focus {outline:none;};
+
+p{
+    font-size: 3vw; /* 반응형 폰트 크기 */
+    color: #333;
+    background: none;
+    font-weight: bold;
+}
+
+span{
+    font-weight: bold;
+    font-size: 4vw; /* 반응형 폰트 크기 */
+    color: #333;
+}
+body{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+    -webkit-touch-callout: none;
+     user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     -webkit-user-select: none;
+}
+
+button{
+
+    border-radius: 20px;
+    border-style: solid;
+    border-color: transparent;
+
+
+    background-color: rgb(255, 166, 0);
+    color : white;
+
+    font-weight:bold;
+    font-size: 20px;
+
+    width: 150px;
+    height: 40px;
+    transition: all 0.3s ease; 
+
+    cursor: pointer;
+    
+}
