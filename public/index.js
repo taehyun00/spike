@@ -38,7 +38,7 @@ function dropBall() {
     ball.style.top = '0'; // 공 시작 위치 (화면 맨 위)
 
     // 공 떨어지는 로직
-    let fallSpeed = 17; // 떨어지는 속도
+    let fallSpeed = 20; // 떨어지는 속도
     ballInterval = setInterval(() => {
         const currentTop = parseFloat(ball.style.top || '0');
         const maxFallHeight = window.innerHeight * 2; // 화면 높이의 2배 (top: -200%)
