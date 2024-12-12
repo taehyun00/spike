@@ -13,7 +13,11 @@ document.getElementById("count").value = score
         document.getElementById("comment").innerText = "좋아요! 어디가서 안꿀리겠어요";
     }
 
-    else if(score>= 50){
+    else if(score >= 50){
+        document.getElementById("comment").innerText = "조금만 더 하면 주전도 할수있을듯?";
+    }
+
+    else if(score>= 30){
         document.getElementById("comment").innerText = "멋진데요? 뭐 저에게 블락당하겠지만요";
 
     }
